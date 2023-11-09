@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: hsl(235, 18%, 26%);
   color: hsl(234, 29%, 20%);
   display: flex;
@@ -19,10 +19,6 @@ body {
   gap: 40px;
   align-items: center;
 }
-/* .content-div,
-.illustration-div {
-  width: 50%;
-} */
 h1 {
   font-size: 40px;
   margin-top: 0;
@@ -62,7 +58,6 @@ input,
   width: 100%;
 }
 input {
-  /* max-width: 100%; */
   padding: 14px 0px;
   margin-bottom: 20px;
   text-align: center;
@@ -84,7 +79,6 @@ input:focus {
   background-color: hsl(234, 29%, 20%);
   color: #fff;
   font-weight: 700;
-  /* width: 100%; */
   font-size: 12px;
   padding: 16px 20px;
   border: none;
@@ -129,7 +123,7 @@ input:focus {
 #dismiss-btn:hover,
 #subscribe-btn:hover {
   cursor: pointer;
-  background: linear-gradient(to right, #FE537A, #FF673E);
+  background: linear-gradient(to right, #fe537a, #ff673e);
 }
 .thanks-h1 {
   margin-bottom: 0;
@@ -158,23 +152,14 @@ input:focus {
     max-width: 100%;
     height: auto;
     width: 100%;
-    /* width: 350px; */
   }
   body {
     background-color: #fff;
-    /* display: flex; */
-    align-items: center;
-    justify-content: unset;
-    flex-direction: column;
-    margin: 0;
-    /* min-height: 100vh; */
-    /* min-height: 100dvh; */
   }
   .sign-up-container {
     background-color: #fff;
     max-width: 100%;
     width: 100%;
-    /* border-radius: 30px; */
     display: flex;
     padding: 0px;
     gap: 0px;
@@ -185,130 +170,24 @@ input:focus {
     background-color: #fff;
     max-width: 100%;
     width: 100%;
-    /* border-radius: 25px; */
     padding: 0px;
   }
   .mobile-only-container {
-    display: flex;
-    /* min-height: 100vh; */
-    /* min-height: 100dvh; */
-    /* align-items: center; */
-    flex-direction: column;
-    justify-content: space-between;
     padding: 20px;
     margin-top: 100px;
   }
   .content-div {
     padding: 30px 20px;
   }
-  /* h1 {
-    font-size: 40px;
-    margin-top: 0;
-  }
-  .join-p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    padding-right: 30px;
-  }
-  .list-item {
-    font-size: 13px;
-  }
-  .list-and-icon {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  .list-icon {
-    width: 16px;
-    height: auto;
-  }
-  .email-header-and-error {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    font-weight: 700;
-    margin-block: 30px 10px;
-  }
-  .error-msg {
-    color: hsl(4, 100%, 67%);
-    display: none;
-  }
-  input,
-  #subscribe-btn {
-    border-radius: 6px;
-    max-width: 100%;
-    width: 100%;
-  }
-  input {
-    padding: 14px 0px;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 1px solid hsl(231, 7%, 60%);
-  }
-  input:hover {
-    cursor: pointer;
-  }
-  input:focus {
-    outline: none;
-    border: 1px solid hsl(234, 29%, 20%);
-    text-align: center;
-  }
-  ::placeholder {
-    color: hsl(231, 7%, 60%);
-    text-align: center;
-  }
-  #subscribe-btn {
-    background-color: hsl(234, 29%, 20%);
-    color: #fff;
-    font-weight: 700;
-    font-size: 12px;
-    padding: 16px 20px;
-    border: none;
-  }
-  .error-input {
-    color: hsl(4, 100%, 67%);
-    background-color: hsla(4, 100%, 67%, 0.1);
-    border: 1px solid hsl(4, 100%, 67%);
-  }
-  .success-icon {
-    width: 50px;
-    height: auto;
-    margin-bottom: 25px;
-  } */
   .hidden {
     display: none;
   }
   #dismiss-btn {
-    /* background-color: hsl(234, 29%, 20%);
-    color: #fff;
-    font-weight: 700;
-    font-size: 12px;
-    padding: 14px 20px;
-    border: none;
-    border-radius: 6px;
-    width: 100%; */
     margin-top: 100px;
-    /* position: relative; */
-    /* bottom: -120px; */
-  }
-  #dismiss-btn:hover,
-  #subscribe-btn:hover {
-    cursor: pointer;
-    background: linear-gradient(to right, #FE537A, #FF673E);
-  }
-  .thanks-h1 {
-    margin-bottom: 0;
-  }
-  .success-p {
-    font-size: 12px;
-    line-height: 1.5;
-    margin-block: 15px 25px;
   }
   .attribution {
     color: hsl(234, 29%, 20%);
     margin-block: 40px 30px;
-    /* position: fixed; */
-    /* bottom: 0; */
   }
   .attribution a {
     color: blue;
