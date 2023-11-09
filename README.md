@@ -18,9 +18,13 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ![](/images/Desktop_View.jpeg)
 
-#### Desktop View Active State
+#### Desktop View Error States
 
-![](/images/Desktop_View_Active_State.jpeg)
+![](/images/Desktop_View_Error_States.jpeg)
+
+#### Desktop View Success
+
+![](/images/Desktop_View_Success.jpeg)
 
 #### Mobile View
 
@@ -28,10 +32,10 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 <img src="/images/Mobile_View.png" width="400">
 </div>
 
-#### Mobile View Active State
+#### Mobile View Success
 
 <div align="center">
-<img src="/images/Mobile_View_Active_State.png" width="400">
+<img src="/images/Mobile_View_Success.png" width="400">
 </div>
 
 ### Links
