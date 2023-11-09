@@ -36,8 +36,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/LaudRam/intro-component-with-signup-form)
-- Live Site URL: [Live Site URL](https://intro-component-with-signup-form-iota-lake.vercel.app/)
+- Solution URL: [GitHub](https://github.com/LaudRam/newsletter-sign-up-with-success-message)
+- Live Site URL: [Live Site URL](https://newsletter-sign-up-with-success-message-blush.vercel.app/)
 
 ### Built with
 

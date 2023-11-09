@@ -30,6 +30,7 @@ h1 {
 .join-p {
   font-size: 12px;
   margin-bottom: 20px;
+  padding-right: 30px;
 }
 .list-item {
   font-size: 13px;
@@ -52,6 +53,7 @@ h1 {
 }
 .error-msg {
   color: hsl(4, 100%, 67%);
+  display: none;
 }
 input,
 #subscribe-btn {
@@ -63,6 +65,7 @@ input {
   /* max-width: 100%; */
   padding: 14px 0px;
   margin-bottom: 20px;
+  text-align: center;
   border: 1px solid hsl(231, 7%, 60%);
 }
 input:hover {
@@ -90,6 +93,11 @@ input:focus {
   max-width: 100%;
   height: auto;
   width: 350px;
+}
+.error-input {
+  color: hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 0.1);
+  border: 1px solid hsl(4, 100%, 67%);
 }
 .hidden {
   display: none;
